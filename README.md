@@ -18,3 +18,12 @@
 # How it Works:
 
 <p> It works by taking the lig_idx mentoned in the report.txt which matches with PDB atom serial number . Now this is mapped with RDKit mol object (atom_idx) got with the extraction of PDB file. The Interactions are plotted accordingly with corresponding Amino acid labels which are mapped with the lig_idx in the first place. Amino acid labels are not represntative of their 3D coordinates </p>
+
+# Limitations
+
+<li> Lig_idx misplaced</li>
+<li> Double-Triple Bond not displaced would require assign bond orders by RDkit</li>
+<p> Pleas contribute to make it more better</p>
+
+# Dependency
+Rdkit, Matplotlib, Biopython , Numpy, and PIL
