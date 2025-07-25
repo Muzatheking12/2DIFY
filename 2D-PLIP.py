@@ -191,9 +191,7 @@ def Two_Dimensional_Interactions(resname, pdb_path, report_file, output_dir, pad
             atom_dict[(atom.GetSymbol(), transformed_idx)] = og_idx
             print(f"Atom symbol: {atom.GetSymbol()}, Index: {og_idx}, Transformed idx: {transformed_idx}")
 
-        # Build mapping: lig_idx (from parse_protein_coords) to (atom symbol, transformed_idx)
-        # Here, lig_idxs is assumed to be the transformed_idx (1-based RDKit atom index)
-        # If you have atom symbol info in your lig_idx data, use it for more robust matching
+       
         idx_to_labels = {}
         for label, typ, lig_idx in zip(labels, types, lig_idxs):
             idx_to_labels.setdefault(lig_idx, []).append((label, typ))
