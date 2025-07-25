@@ -1,5 +1,5 @@
 # 2D PLIP
-<p>Generate 2D Protein-Ligand Interaction with PLIP output (report.txt and complex.pdb given to PLIP as input)</p>
+<p><b>Generate 2D Protein-Ligand Interaction with PLIP output (report.txt and complex.pdb given to PLIP as input)</b></p>
 <Img src=".\2DPLIP.png" >
 
 # Interactions Reported
