@@ -22,7 +22,7 @@
 
 # Limitations
 
-<li> Lig_idx can be misplaced in report.txt</li>
+<li> Lig_idx can be misplaced in report.txt. Always Cross Verify</li>
 <li> Double-Triple Bond not displaced would require assign bond orders by RDkit</li>
 <p> Please contribute to make it more better</p>
 
