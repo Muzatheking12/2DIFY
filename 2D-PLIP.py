@@ -315,6 +315,14 @@ def Two_Dimensional_Interactions(resname, pdb_path, report_file, output_dir, pad
         plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05)
         os.remove(ligand_pdb_path)
         plt.show()
-  
+
+
+
+#USE-CASE---------------------
+#pdbfile = r"C:\Users\User\Desktop\Jaya\2Z5X\1\complex.pdb"
+#report = r"C:\Users\User\Desktop\Jaya\2Z5X\1\report.txt"
+
+#filee = os.path.dirname(__file__)
+#Two_Dimensional_Interactions("UNL", pdbfile, report, filee )
 
 
