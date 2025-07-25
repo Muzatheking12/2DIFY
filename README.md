@@ -3,12 +3,12 @@
 <Img src=".\2DPLIP.png" >
 
 # Interactions Reported
-<li>H-Bond - Solid Grey</li>
-<li>Hydrophobic Interactions - Dashed Grey</li>
-<li>Pi-Pi Stacking - Dashed Green</li>
-<li>Halogen Bond - Solid Cyan</li>
-<li>Pi-Cation - Dashed Orange</li>
-<li>Salt Bridges -  Dotted Yellow</li>
+<li><b>H-Bond</b> - Solid Grey</li>
+<li><b>Hydrophobic Interactions</b> - Dashed Grey</li>
+<li><b>Pi-Pi Stacking</b> - Dashed Green</li>
+<li><b>Halogen Bond</b> - Solid Cyan</li>
+<li><b>Pi-Cation</b> - Dashed Orange</li>
+<li><b>Salt Bridges</b> -  Dotted Yellow</li>
 
 # Instructions to NOTE:
 
@@ -22,9 +22,9 @@
 
 # Limitations
 
-<li> Lig_idx misplaced</li>
+<li> Lig_idx can be misplaced in report.txt</li>
 <li> Double-Triple Bond not displaced would require assign bond orders by RDkit</li>
-<p> Pleas contribute to make it more better</p>
+<p> Please contribute to make it more better</p>
 
 # Dependency
 Rdkit, Matplotlib, Biopython , Numpy, and PIL
