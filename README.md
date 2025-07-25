@@ -1,6 +1,7 @@
 # 2D PLIP
 <p>Generate 2D Protein-Ligand Interaction with PLIP output (report.txt and complex.pdb given to PLIP as input)</p>
 <Img src=".\2DPLIP.png" >
+
 # Interactions Reported
 <li>H-Bond - Solid Grey</li>
 <li>Hydrophobic Interactions - Dashed Grey</li>
