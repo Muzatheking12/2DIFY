@@ -30,4 +30,8 @@ def main():
     )
 
 if __name__ == "__main__":
+
     main()
+
+
+# Example Use Case: python 2dify_cli.py --resname HEY --pdb .\example\complex.pdb --report .\example\report.txt --template .\example\I2.sdf --out "."
