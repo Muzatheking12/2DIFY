@@ -27,4 +27,8 @@
 <p> Please contribute to make it more better</p>
 
 # Dependency
-Rdkit, Matplotlib, Biopython , Numpy, and PIL
+Rdkit, Matplotlib, Numpy, and PIL
+
+# Cite Us
+
+<p> Muzammil Kabier 2DIFY: https://github.com/Muzatheking12/2DIFY </p>
