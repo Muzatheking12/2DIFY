@@ -12,6 +12,7 @@
 
 # Instructions to NOTE:
 
+<li> You can now , pip install 2DIFY==1.0.1</li>
 <li> At First, Use PLIP to generate report.txt <b>CLI command: plip -f complex.pdb -pty</b> </li>
 <li> <b>Use 2Dify_cli.py to pass arguements for resname, pdb complex, report file generated from PLIP, template file of ligand inside protein for bond orders takes .sdf, .mol and even SMILES and at last specifcy output directory . Example use case: python 2dify_cli.py --resname HEY --pdb .\example\complex.pdb --report .\example\report.txt --template .\example\I2.sdf --out ".". For python function, use twodimensional_plot.py for python function </b>  </li>
 <li> Make venv with requirements.txt , and run the above command at the directory after cloning the repository</li>
